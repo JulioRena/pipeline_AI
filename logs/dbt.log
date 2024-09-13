@@ -1,0 +1,68 @@
+[0m14:54:59.270617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E06616F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E06AF8680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E06AFA6F0>]}
+
+
+============================== 14:54:59.276091 | efdad5b1-a4fe-4c4a-9a40-3bef70417924 ==============================
+[0m14:54:59.276091 [info ] [MainThread]: Running with dbt=1.8.6
+[0m14:54:59.277063 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\julio\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m14:54:59.304696 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/julio/.dbt')}
+[0m14:54:59.305703 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:54:59.308080 [debug] [MainThread]: Starter project path: C:\Users\julio\pipeline_ai\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:54:59.338598 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:54:59.342252 [info ] [MainThread]: Setting up your profile.
+[0m15:00:22.333709 [info ] [MainThread]: Profile vendas_dbt written to C:\Users\julio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:00:22.343627 [debug] [MainThread]: Command `dbt init` succeeded at 15:00:22.343627 after 323.18 seconds
+[0m15:00:22.345638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E09115760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E0908F320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E080C3320>]}
+[0m15:00:22.347019 [debug] [MainThread]: Flushing usage events
+[0m15:01:18.252781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BCC4F890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BC0B12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BC0B11C0>]}
+
+
+============================== 15:01:18.256737 | 0ab7bcd2-a579-437a-bd14-5c3a49c4d9fc ==============================
+[0m15:01:18.256737 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:01:18.257734 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\julio\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init vendas_dbt', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:18.280918 [info ] [MainThread]: A project called vendas_dbt already exists here.
+[0m15:01:18.283727 [debug] [MainThread]: Command `dbt init` succeeded at 15:01:18.283674 after 0.24 seconds
+[0m15:01:18.283727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BC4003B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BCDC96A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1BC67F7A0>]}
+[0m15:01:18.285695 [debug] [MainThread]: Flushing usage events
+[0m15:02:09.453826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B96CDDDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B9A417A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B978552E0>]}
+
+
+============================== 15:02:09.459533 | 92f9fcc7-f85e-4bf0-ab69-5c00924ec56c ==============================
+[0m15:02:09.459533 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:02:09.460533 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\julio\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init vendas_dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:02:09.485418 [debug] [MainThread]: Starter project path: C:\Users\julio\pipeline_ai\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:02:09.507000 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:02:09.509507 [info ] [MainThread]: Setting up your profile.
+[0m15:04:03.657647 [info ] [MainThread]: Profile vendas_dbt written to C:\Users\julio\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:04:03.661862 [debug] [MainThread]: Command `dbt init` succeeded at 15:04:03.661862 after 114.33 seconds
+[0m15:04:03.663372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B9A5098E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B9A776C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B996F1130>]}
+[0m15:04:03.664382 [debug] [MainThread]: Flushing usage events
